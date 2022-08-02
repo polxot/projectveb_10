@@ -1,0 +1,66 @@
+.intro {
+  margin-top: 25px;
+  display: flex;
+  justify-content: flex-end;
+}
+.intro-img {
+  background: url(../../images/main/apartament.jpg);
+  width: 965px;
+  height: 600px;
+}
+.intro .intro-text {
+  position: absolute;
+  font-size: 62px;
+  right: 900px;
+  top: 220px;
+}
+.intro-contacts {
+  background-color: #ffcc01;
+  border-radius: 3px;
+  max-width: 590px;
+  position: absolute;
+  /* right: 170px; */
+  top: 595px;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 50px;
+}
+.intro-contacts i {
+  color: #fff;
+  margin-right: 30px;
+}
+.intro-contacts p {
+  font-size: 18px;
+  font-weight: 600;
+  margin-right: 60px;
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    margin-top: 0;
+    display: block;
+    max-width: 100%;
+  }
+  .intro-img {
+    background-position: bottom 10px right 470px;
+  }
+  .intro .intro-text {
+    position: relative;
+    font-size: 35px;
+    right: -10px;
+    top: 110px;
+  }
+  .intro .intro-contacts {
+    position: relative;
+    right: 0;
+    top: -60px;
+    height: auto;
+  }
+  .intro-contacts i {
+    margin-right: 5px;
+  }
+  .intro-contacts p {
+    font-size: 11px;
+    margin-right: 0;
+  }
+}

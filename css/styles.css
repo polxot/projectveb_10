@@ -1,0 +1,13 @@
+@import url('base.css');
+@import url('fonts.css');
+@import url('all.css');
+
+@import url('bloks/header.css');
+@import url('bloks/intro.css');
+@import url('bloks/stast.css');
+@import url('bloks/apartmets.css');
+@import url('bloks/steps.css');
+@import url('bloks/services.css');
+@import url('bloks/agents.css');
+@import url('bloks/add.css');
+@import url('bloks/footer.css');
